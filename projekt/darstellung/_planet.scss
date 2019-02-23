@@ -1,0 +1,13 @@
+
+
+.planet {
+  border-width: 4px;
+  border-color: $hintergrundsfarbe;
+  border-style: solid;
+  border-radius: 50%;
+  background: $planetFarbe;
+
+  &.abschussplattform, &.ziel {
+    opacity: 0.75;
+  }
+}

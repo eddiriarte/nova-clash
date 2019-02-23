@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi');
+
+@import './variablen';
+
+@import './login';
+@import './planet';
+@import './hangar';
+@import './quadranten';
+@import './nova-disk';
+@import './raumschiff';
+
+
+.spielbrett {
+  width: $spielfeldBreite;
+  height: $spielfeldBreite;
+  margin: 35px auto;
+  position: relative;
+}
